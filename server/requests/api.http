@@ -1,0 +1,13 @@
+### Submit Question
+
+POST http://127.0.0.1:5000/api/questions
+Content-Type: application/json
+
+{
+    "name": "Mark",
+    "content": "This is a question"
+}
+
+### Fetch Questions
+GET http://127.0.0.1:5000/api/questions
+Content-Type: application/json
